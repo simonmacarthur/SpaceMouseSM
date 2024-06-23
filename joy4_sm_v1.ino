@@ -1,4 +1,6 @@
 // This code includes a couple of minor changes to TeachingTechs original source.
+// (https://www.printables.com/model/864950-open-source-spacemouse-space-mushroom-remix/comments/1876326)
+//
 // 1) It prevents the code sending HID messages, unless activity is detected on the device.
 // 2) It includes a scaling factors above and below midpoint. (This is a simple linear scaling)
 //    the reason I inititally added this was on my Arduino Board the raw data was reading around 700
